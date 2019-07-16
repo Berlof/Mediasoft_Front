@@ -1,0 +1,271 @@
+body {
+    color:white;
+    font-family: sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    text-decoration: none;
+
+}
+footer{
+    background-color:#344b8e;
+
+}
+
+.main {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+.block1-1 {
+    background-color: #87509c;
+    padding-top:70px;
+
+}
+
+.block1-2 {
+    background-color:#17c2a4 ;
+}
+
+.block2{
+    color: #363b3f;
+}
+
+.block3{
+    background-color: #ffdd99;
+}
+
+.block4{
+    background-color: #d74680;
+}
+
+.block5{
+    background-color: #3c5499;
+}
+
+#headerMain {
+     width: 100%;
+     height: 70px;
+     background-color: #87509c;
+     z-index:2;
+     position: fixed;
+     margin-top: -20px;
+
+}
+
+#header {
+    width:90%;
+    height: 70px;
+    position: fixed;
+    z-index: 9999;
+
+}
+
+nav {
+    display: flex;
+    padding-top: 40px;
+}
+
+
+nav ul {
+    display: flex;
+    margin-left: 60%;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin-right: 10%;
+    text-decoration: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:white;
+    font-size: 16px;
+}
+nav ul li a:hover {
+    background-color: #643a79;
+    padding:10px;
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 140px;
+}
+
+button {
+    background-color: #eb7d4b;
+    color: white;
+    height: 60px;
+    width: 260px;
+    font-size: 15px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    border:0;
+}
+.headline {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 100px;
+}
+div .line{
+    background-color: #14a88f;
+    height: 4px;
+    width: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7px;
+}
+div .lineBlock2{
+     background-color:#ecf2f4;
+     height: 4px;
+     width: 80px;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 7px;
+ }
+div .lineBlock3{
+    background-color:#e7c581;
+    height: 4px;
+    width: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7px;
+}
+div .lineBlock4{
+    background-color:#c13e71;
+    height: 4px;
+    width: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7px;
+}
+div .lineBlock5{
+    background-color: #2d417e;
+    height: 4px;
+    width: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7px;
+}
+.description p {
+    padding-top: 9px;
+}
+.blockFour{
+    display: inline-block;
+    width: 150px;
+    height: 350px;
+    margin: 70px 7% 0 0;
+}
+.blockFour h3 {
+    font-size: 16px;
+
+}
+.blockFour p{
+    padding-top: 15px;
+    font-size: 12px;
+}
+
+.headlineBlock3{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 100px;
+    color: #393939;
+}
+
+.description .color {
+    color:#393939;
+}
+.buttonBlock3{
+    background-color:#17c2a4;
+    color: white;
+    height: 60px;
+    width: 260px;
+    font-size: 15px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    border:0;
+}
+.buttonMassage{
+    background-color:#30bae7;
+    color: white;
+    height: 60px;
+    width: 260px;
+    font-size: 15px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    border:0;
+}
+.clients {
+    display: inline-block;
+    padding-right: 140px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.client{
+    text-align: left;
+}
+.acc {
+    float:left;
+
+}
+.client p{
+    font-size: 14px;
+    padding-bottom: 20px;
+    line-height: 20px;
+}
+.ps {
+    font-size: 10px;
+    padding-top: 5px;
+    color: #efa58f;
+}
+input {
+    background-color: #273a71;
+    border: 0;
+    color:white;
+    padding: 12px;
+    margin-bottom: 17px;
+}
+.massage{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;;
+    padding-top: 50px;
+}
+.inputLine{
+    display: inline-block;
+}
+textarea{
+    background-color: #273a71;
+    border: 0;
+    color:white;
+    padding: 12px;
+}
+.footerMenu {
+    margin-left: auto;
+    margin-right: auto;;
+    padding: 20px;
+}
+.footerMenu a{
+    margin-right: 60px;
+    text-decoration: none;
+    Color: white;
+    font-weight:bold;
+}
+.footerMenu a:hover{
+    color:#30b3e0;
+}
